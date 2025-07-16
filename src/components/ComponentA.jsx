@@ -1,10 +1,13 @@
+import FormA from "./FormA"
+import './App.css';
+const ComponentA = () => {
 
-const ComponentA=()=>{
-
-    return(
-        <div style={"padding:16px"}></div>
+    return (
+        <div className="support">
+            <FormA />
+        </div>
     )
 
 }
 
-export default ComponentA;
+export default ComponentA
